@@ -1,11 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-
 export default function StateComponent() {
-
     var userName = "a";
     var userAge= 10;
-
     return (
         <>
             <h1>Hello {returnName()}...</h1>
@@ -14,7 +9,6 @@ export default function StateComponent() {
         </>
     )
 }
-
 function returnName() {
     return "TechnoFunnel"
 }

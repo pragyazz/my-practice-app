@@ -1,6 +1,9 @@
- export default function PresentationalComponent()
-{
-    return (" This is  Presentational Component : used to display  ") ;
+export default function PresentationalComponent() {
+    return (
+        <>
+            <h1>Hello .presentataional component..</h1>
+            
+        </>
+    ) ;
 }
-  
   
