@@ -5,10 +5,8 @@ import PresentationalComponent from "d:/my-practice-app/src/Component/Presentati
 import StateComponent from "d:/my-practice-app/src/Component/StateComponent"
 ReactDOM.render((
   <>
-  <h1>These are two components : </h1>
-  <PresentationalComponent></PresentationalComponent><hr/>
-  <StateComponent>  </StateComponent><hr/>
-  
-    
+    <h1>These are two components : </h1>
+    <PresentationalComponent></PresentationalComponent><hr/>
+    <StateComponent>  </StateComponent><hr/>
   </>
 ),document.getElementById("root"));
